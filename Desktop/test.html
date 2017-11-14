@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+<link type="text/css" rel="stylesheet" href="foods/menu.css">
+<script src="https://use.fontawesome.com/e5d14158d3.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $(".flip").click(function(){
+        $(this).next(".panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style> 
+.panel, .flip {
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: solid 1px #c3c3c3;
+    margin-right: 0;
+    color: brown;
+}
+
+.flip {
+    height: 90px;
+    font-size: 25px;
+}
+    
+.panel {
+    padding: 20px;
+    margin-bottom: 0;
+    display: none;
+}
+</style>
+</head>
+<body>
+ <div id="title" class="jumbotron">
+    <h2 class="justify-content-center">Food Values</h2>
+</div>
+<!------------>
+<div class="row">
+<div class="col-md-9">
+<div class="flip">Greens<br><i class="fa fa-arrow-circle-down fa-lg" aria-hidden="true"></i></div>
+
+<div class="panel">        
+       <button id="spinach" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3>Kale</h3></a>
+       </div>
+       </button>
+       
+       <button id="tomato" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3 title="this is headed nowhere">Spinach</h3></a>
+       </div>
+        </button>
+       <button id="broccoli" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Swiss Chard</h3></a>
+       </div>
+        </button>
+       <button id="cabbage" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Romain</h3></a>
+       </div>
+        </button>
+       <button id="pea" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Pea</h3></a>
+       </div>
+        </button>
+    </div>
+<!-------------->
+<div class="flip">Click to slide the panel down or up</div>
+<div class="panel">        
+    <div id="arrow_box" class="col-md-2 text-center">
+            <h3 id="font">Vegetables</h3>
+       </div>
+       <button id="spinach" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3>Spinach</h3></a>
+       </div>
+       </button>
+       
+       <button id="tomato" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3 title="this is headed nowhere">Tomato</h3></a>
+       </div>
+        </button>
+       <button id="broccoli" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Broccoli</h3></a>
+       </div>
+        </button>
+       <button id="cabbage" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Cabbage</h3></a>
+       </div>
+        </button>
+       <button id="pea" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Pea</h3></a>
+       </div>
+        </button>
+    </div>
+<!-------------->
+<div class="flip">Veggies</div>
+<div class="panel">        
+       <button id="spinach" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3>Spinach</h3></a>
+       </div>
+       </button>
+       
+       <button id="tomato" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3 title="this is headed nowhere">Tomato</h3></a>
+       </div>
+        </button>
+       <button id="broccoli" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Broccoli</h3></a>
+       </div>
+        </button>
+       <button id="cabbage" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Cabbage</h3></a>
+       </div>
+        </button>
+       <button id="pea" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Pea</h3></a>
+       </div>
+        </button>
+    </div>
+<!--------------->
+<div class="flip">Click to slide the panel down or up</div>
+<div class="panel">        
+    <div id="arrow_box" class="col-md-2 text-center">
+            <h3 id="font">Vegetables</h3>
+       </div>
+       <button id="spinach" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3>Spinach</h3></a>
+       </div>
+       </button>
+       
+       <button id="tomato" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3 title="this is headed nowhere">Tomato</h3></a>
+       </div>
+        </button>
+       <button id="broccoli" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Broccoli</h3></a>
+       </div>
+        </button>
+       <button id="cabbage" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Cabbage</h3></a>
+       </div>
+        </button>
+       <button id="pea" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Pea</h3></a>
+       </div>
+        </button>
+    </div>
+<!------------------------>
+<div class="flip">Click to slide the panel down or up</div>
+<div class="panel">        
+    <div id="arrow_box" class="col-md-2 text-center">
+            <h3 id="font">Vegetables</h3>
+       </div>
+       <button id="spinach" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3>Spinach</h3></a>
+       </div>
+       </button>
+       
+       <button id="tomato" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a id="font" href="#"><h3 title="this is headed nowhere">Tomato</h3></a>
+       </div>
+        </button>
+       <button id="broccoli" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Broccoli</h3></a>
+       </div>
+        </button>
+       <button id="cabbage" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Cabbage</h3></a>
+       </div>
+        </button>
+       <button id="pea" data-balloon-length="fit" data-balloon="What about something really big? This may surpass your window dimensions. Imagine you're on that boring class with that boring teacher and you didn't slept so well last night. Suddenly you're sleeping in class. Can you believe it?!" data-balloon-pos="down-left">
+       <div class="col-md-2 text-center">
+            <a href="#"><h3 id="font">Pea</h3></a>
+       </div>
+        </button>
+    </div>
+ </div>
+ <!-----menu-addition----->
+ <div id="combolist" class="col-md-3">
+    <h1>Hello</h1>
+</div>
+</div>
+</body>
+</html>
