@@ -7,7 +7,15 @@
     <link rel="stylesheet" type="text/css" href="menu.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    <script>
+        $(document).ready(function() {
+           $("#category").click(function () {
+              $("#panel").slideToggle("slow"); 
+           });
+        });
+    </script>
     
 </head>
 <body>
@@ -16,6 +24,8 @@
     <h2 class="justify-content-center">Food Values</h2>
 </div>
    <div class="row">
+        <div id="category">
+        <div id="panel">
         <div id="arrow_box" class="col-md-2 text-center">
             <h3 id="font">Vegetables</h3>
        </div>
@@ -45,6 +55,8 @@
             <a href="#"><h3 id="font">Pea</h3></a>
        </div>
         </button>
+     </div>
+     </div>
     </div>
     <div class="row">
         <div id="arrow_box" class="col-md-2 text-center">
