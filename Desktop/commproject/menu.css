@@ -1,0 +1,231 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron {
+    height: 0px;
+    background: rgba(0,0,0,0.1);
+
+}
+
+.jumbotron h2 {
+    vertical-align: middle;
+    text-align: center;
+    line-height: 30px;
+    margin-top: -10px;
+}
+
+.row {
+    height: 100px;
+}
+
+.row a {
+    color: black;
+    padding-top: 40px;
+}
+
+#title {
+    background: #002855;
+}
+
+#title h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-size: 4.6rem;
+    color: white;
+}
+
+
+#font {
+    font-family: 'Lato', sans-serif;
+}
+
+button {
+    height: 100px;
+    border-color: rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+    margin-right: 20px;;
+}
+
+a.tooltip {outline:none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:60px; margin-left:-160px;
+    width:300px; line-height:16px;
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; 
+    border:2px solid #FFF;  color:#EEE;
+    background:#333 url(cssttp/css-tooltip-gradient-bg.png) repeat-x 0 0;
+}
+.callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:2px;        
+    box-shadow: 0px 0px 8px 4px #666;
+    /*opacity: 0.8;*/
+}
+
+
+.row {
+    margin-bottom: 40px;
+}
+.row:nth-child(2) {
+    margin-top: -30px;
+}
+
+.row:nth-child(1n) }
+    color: white;
+}
+
+/*---------------------*/
+
+#category, #panel {
+    padding: 5px;
+}
+
+#category {
+    padding: 50px;
+    /*display: none;*/
+}
+    
+/*----------Combolist----------*/
+#combolist {
+    height:100%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3px;
+    color: white;
+    height: 85vh;
+    margin-left:-15px;
+}
+
+
+/*--------------------*/
+
+#vegetables {
+    background-color: green;
+    color: white;
+}
+
+#spinach {
+    background-image: url(images/spinach.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#cabbage {
+    background-image: url(images/cabbage.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#pea {
+    background-image: url(images/pea.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+
+#tomato {
+    background-image: url(images/tomato.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#broccoli {
+    background-image: url(images/broccoli.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#apple {
+    background-image: url(images/apple.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#strawberry {
+    background-image: url(images/strawberries.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#peach {
+    background-image: url(images/peach.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+
+#banana {
+    background-image: url(images/bananas.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+#orange {
+    background-image: url(images/orange.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120px;
+}
+
+
+
+
+
+
